@@ -2,7 +2,7 @@
 //componente React (função q tem como retorno html)
 import "./App.css"
 function App() {
-  let nome = "Maria Clara"
+  let nome = "Maria"
   let sobrenome = " Feldkircher de Oliveira"
   return (
    <div>
