@@ -1,15 +1,17 @@
 
 //componente React (função q tem como retorno html)
 import "./App.css"
+import MeuComponente from "./componentes/MeuComponente"
 function App() {
-  let nome = "Maria"
+  let nome = "Maria Clara"
   let sobrenome = " Feldkircher de Oliveira"
   return (
-   <div>
+    <>
+    <MeuComponente></MeuComponente>
     <h1 className="nome">Nome: {nome}</h1>
    <p className="sobrenome">{sobrenome}</p>
-   </div>
-    
+   
+   </>
     
      
   
