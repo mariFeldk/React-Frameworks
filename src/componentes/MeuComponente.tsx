@@ -5,6 +5,7 @@
 //Dentro de uma tag header nos temos uma div com o texto "logo" borda vermelha de tamanho 200x200 centralizada na vertical a 30px da lateral esquerda 
 import './MeuComponente.css'
 
+
 function MeuComponente(){
     let logo = "logo"
     return(
